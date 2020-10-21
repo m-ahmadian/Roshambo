@@ -80,36 +80,8 @@ class Move: NSObject {
             result = Message.draw.rawValue
             imageName = ImageName.tie.rawValue
             return Condition.tie.rawValue
-//        default:
-//            "Invalid Selection"
         }
     }
     
-//    func result(player: Dice.Gesture, computer: Dice.Gesture) -> String {
-//        switch (player, computer) {
-//        case (Gesture.Rock, Gesture.Rock):
-//            return "It's a Tie!"
-//        case (Gesture.Rock, Gesture.Paper):
-//            return "You lose!"
-//        case (Gesture.Rock, Gesture.Scissors):
-//            return "You win!"
-//            
-//        case (Gesture.Paper, Gesture.Rock):
-//            return "You win!"
-//        case (Gesture.Paper, Gesture.Paper):
-//            return "It's a Tie!"
-//        case (Gesture.Paper, Gesture.Scissors):
-//            return "You lose!"
-//            
-//        case (Gesture.Scissors, Gesture.Rock):
-//            return "You lose!"
-//        case (Gesture.Scissors, Gesture.Paper):
-//            return "You win!"
-//        case (Gesture.Scissors, Gesture.Scissors):
-//            return "Tie"
-//            //        default:
-//            //            "Invalid Selection"
-//        }
-//    }
 
 }
